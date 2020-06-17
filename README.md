@@ -1,6 +1,6 @@
 # flutterappjurossimples
 
-A new Flutter application.
+Aplicação em Flutter para calculo de Juros Simples.
 
 ## Getting Started
 
