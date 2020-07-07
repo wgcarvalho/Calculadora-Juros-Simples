@@ -12,7 +12,7 @@ class JS extends StatefulWidget {
 }
 
 class _JSState extends State<JS> {
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>(); //1º criar a variavel GlobalKey
+  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   TextEditingController capital = new TextEditingController();
   TextEditingController taxa = new TextEditingController();
@@ -50,7 +50,7 @@ class _JSState extends State<JS> {
           title: Text("Calcula de Juros Simples"),
           centerTitle: true,
         ),
-        body: Form(//2º cria o widget
+        body: Form(
           key: _formKey,
           child: Column(
             children: <Widget>[
